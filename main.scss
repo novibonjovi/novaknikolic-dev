@@ -1,1 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;900&family=Playfair+Display:wght@400;500;700;800&display=swap');
+
+* {
+  margin: 0px;
+  color: hsl(222, 13%, 15%);
+}
+
+body {
+  background-color: hsl(51, 31%, 87%);
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 32px;
+  display: flex;
+  margin-right: -24px;
+  width: auto;
+  white-space: nowrap;
+
+  .dot {
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    line-height: 10px;
+  }
+
+  .square {
+    background-color: hsl(52, 24%, 76%);
+    height: auto;
+    width: 100vw;
+    margin-left: 24px;
+  }
+}
+
+header {
+  font-family: 'Montserrat';
+  background-color: hsl(51, 60%, 87%);
+  padding: 32px 24px;
+  position: relative;
+  overflow: hidden;
+
+  #novak {
+    font-weight: 900;
+    font-size: 64px;
+    position: relative;
+    z-index: 10;
+    margin-top: 62px;
+  }
+
+  #nikolic {
+    font-weight: 900;
+    font-size: 86px;
+    color: hsl(52, 24%, 76%);
+    position: relative;
+    left: 10px;
+    top: -48px;
+    margin-bottom: 62px;
+    overflow: hidden;
+  }
+
+  img {
+    position: absolute;
+    top: -120px;
+    left: 500px;
+    height: 400px;
+    opacity: 0.2;
+  }
+}
+
+main {
+  font-family: 'Montserrat';
+
+  .card {
+    background-color: hsl(51, 60%, 87%);
+    padding: 32px 24px;
+    margin-top: 12px;
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .card-content {
+      font-size: 18px;
+    }
+
+    .btn {
+      font-family: 'Montserrat';
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 2px;
+      background-color: hsl(210, 31%, 77%);
+      margin-top: 32px;
+      max-width: 230px;
+      display: flex;
+      align-items: center;
+      padding: 12px 24px;
+      box-shadow: 0px 4px 8px hsla(222, 40%, 0%, 0.3);
+      text-decoration: none;
+
+      &:hover {
+        background-color: hsl(210, 70%, 70%);
+      }
+
+      .github {
+        background-image: url('../img/GitHub-Mark-64px@2x.png');
+        display: inline-block;
+        background-size: 24px;
+        height: 24px;
+        width: 24px;
+        margin-right: 12px;
+      }
+
+      .vib {
+        background-image: url('../img/preview-black-18dp@2x.png');
+        display: inline-block;
+        background-size: 30px;
+        height: 30px;
+        width: 30px;
+        margin-right: 12px;
+        margin-top: -3px;
+        margin-left: -3px;
+        margin-bottom: -3px;
+      }
+    }
+  }
+
+  .card:last-child {
+    margin-bottom: 12px;
+  }
+}
+
+footer {
+  font-family: 'Montserrat';
+  background-color: hsl(51, 60%, 87%);
+  padding: 32px 24px;
+
+  p:last-child {
+    margin-top: 24px;
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1499px) {
+  .title {
+    margin-right: -48px;
+  }
+
+  header {
+    padding: 48px;
+  }
+
+  main {
+    .card {
+      padding: 48px;
+    }
+  }
+
+  footer {
+    padding: 48px;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: calc(50% - 102px);
+    margin-right: 12px;
+  }
+
+  .card:nth-child(even) {
+    margin-right: 0px;
+  }
+
+  .card:nth-child(5) {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .title {
+    margin-right: -48px;
+  }
+
+  header {
+    padding: 48px;
+  }
+
+  main {
+    .card {
+      padding: 48px;
+    }
+  }
+
+  footer {
+    padding: 48px;
+
+    p:last-child {
+      margin-top: 32px;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: calc(33.33% - 104px);
+    margin-right: 12px;
+  }
+
+  .card:nth-child(3) {
+    margin-right: 0px;
+  }
+
+  .card:nth-child(6) {
+    margin-right: 0px;
+  }
+
+  .card:nth-child(4) {
+    margin-bottom: 12px;
+  }
+  .card:nth-child(5) {
+    margin-bottom: 12px;
+  }
+}
