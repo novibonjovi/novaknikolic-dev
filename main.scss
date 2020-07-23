@@ -75,6 +75,8 @@ main {
     background-color: hsl(51, 60%, 87%);
     padding: 32px 24px;
     margin-top: 12px;
+    display: flex;
+    flex-direction: column;
 
     .card-title {
       font-size: 20px;
@@ -84,6 +86,7 @@ main {
 
     .card-content {
       font-size: 18px;
+      margin-bottom: auto;
     }
 
     .btn {
@@ -176,7 +179,7 @@ footer {
     margin-right: 0px;
   }
 
-  .card:nth-child(5) {
+  .card:nth-child(9) {
     margin-bottom: 12px;
   }
 }
@@ -222,10 +225,7 @@ footer {
     margin-right: 0px;
   }
 
-  .card:nth-child(4) {
-    margin-bottom: 12px;
-  }
-  .card:nth-child(5) {
-    margin-bottom: 12px;
+  .card:nth-child(9) {
+    margin-right: 0px;
   }
 }
