@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: hsl(57, 29%, 88%);
+  background-color: hsl(220, 5%, 90%);
   box-sizing: border-box;
 }
 
@@ -26,7 +26,7 @@ body {
   }
 
   .square {
-    background-color: hsl(52, 24%, 76%);
+    background-color: hsl(234, 94%, 67%);
     height: auto;
     width: 100vw;
     margin-left: 24px;
@@ -35,7 +35,7 @@ body {
 
 header {
   font-family: 'Montserrat';
-  background-color: hsl(51, 60%, 87%);
+  background-color: hsl(230, 35%, 82%);
   padding: 32px 24px;
   position: relative;
   overflow: hidden;
@@ -52,7 +52,7 @@ header {
   #nikolic {
     font-weight: 900;
     font-size: 86px;
-    color: hsl(52, 24%, 76%);
+    color: hsl(234, 94%, 67%);
     position: relative;
     left: 10px;
     top: -48px;
@@ -62,10 +62,10 @@ header {
 
   img {
     position: absolute;
-    top: -120px;
+    top: -50px;
     left: 500px;
-    height: 400px;
-    opacity: 0.2;
+    height: 350px;
+    opacity: 1;
   }
 }
 
@@ -73,7 +73,7 @@ main {
   font-family: 'Montserrat';
 
   .card {
-    background-color: hsl(51, 60%, 87%);
+    background-color: hsl(232, 32%, 82%);
     padding: 32px 24px;
     margin-top: 12px;
     display: flex;
@@ -101,8 +101,8 @@ main {
       font-family: 'Montserrat';
       font-size: 20px;
       font-weight: 500;
-      border-radius: 2px;
-      background-color: hsl(210, 31%, 77%);
+      border-radius: 4px;
+      background-color: hsl(215, 90%, 70%);
       margin-top: 32px;
       max-width: 230px;
       display: flex;
@@ -112,7 +112,7 @@ main {
       text-decoration: none;
 
       &:hover {
-        background-color: hsl(210, 70%, 70%);
+        background-color: hsl(214, 84%, 80%);
       }
 
       .github {
@@ -145,7 +145,7 @@ main {
 
 footer {
   font-family: 'Montserrat';
-  background-color: hsl(51, 60%, 87%);
+  background-color: hsl(230, 35%, 82%);
   padding: 32px 24px;
 
   p:last-child {
