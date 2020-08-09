@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e4e5e7;
+  background-color: #ebedef;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .title .square {
-  background-color: #5c6cfa;
+  background-color: #21242b;
   height: auto;
   width: 100vw;
   margin-left: 24px;
@@ -37,7 +37,7 @@ body {
 
 header {
   font-family: 'Montserrat';
-  background-color: #c1c6e1;
+  background-color: #d8e4fd;
   padding: 32px 24px;
   position: relative;
   overflow: hidden;
@@ -56,7 +56,7 @@ header #novak {
 header #nikolic {
   font-weight: 900;
   font-size: 86px;
-  color: #5c6cfa;
+  color: #617298;
   position: relative;
   left: 10px;
   top: -48px;
@@ -77,7 +77,7 @@ main {
 }
 
 main .card {
-  background-color: #c2c6e0;
+  background-color: #d8e4fd;
   padding: 32px 24px;
   margin-top: 12px;
   display: -webkit-box;
@@ -110,10 +110,11 @@ main .card .card-content {
 
 main .card .btn {
   font-family: 'Montserrat';
+  color: #0a0c0f;
   font-size: 20px;
   font-weight: 500;
   border-radius: 4px;
-  background-color: #6ea7f7;
+  background-color: #45a1fc;
   margin-top: 32px;
   max-width: 230px;
   display: -webkit-box;
@@ -123,13 +124,11 @@ main .card .btn {
       -ms-flex-align: center;
           align-items: center;
   padding: 12px 24px;
-  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   text-decoration: none;
 }
 
 main .card .btn:hover {
-  background-color: #a1c6f7;
+  background-color: #4582fc;
 }
 
 main .card .btn .github {
@@ -159,7 +158,7 @@ main .card:last-child {
 
 footer {
   font-family: 'Montserrat';
-  background-color: #c1c6e1;
+  background-color: #d8e4fd;
   padding: 32px 24px;
 }
 
